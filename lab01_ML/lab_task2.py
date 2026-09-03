@@ -1,5 +1,4 @@
 """
-AIC-301 Machine Learning Lab - Lab # 01
 Lab Task 2: Matplotlib Visualizations
 Dataset: Pakistan Average Temperature 1901-2016 (Kaggle)
 """
