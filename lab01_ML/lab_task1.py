@@ -23,3 +23,8 @@ print(f"\nAverage summer (Jun-Aug) temperature: {summer_df['temperature'].mean()
 
 hot_recent = df[(df["year"] > 2000) & (df["temperature"] > 25)]
 print(f"Records after 2000 with temp > 25C: {len(hot_recent)} rows\n", hot_recent.head())
+
+print("\n--- Temperature data for 2015 and 2016 ---")
+print(df[df["year"].isin([2015, 2016])])
+
+year
